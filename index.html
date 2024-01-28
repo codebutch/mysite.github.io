@@ -1,331 +1,740 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>3Д-Курсы</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/media.css" />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6 col-md-3 col-sm-12 header-logo">
-            <a href="#">
-              <img src="./img/skillbox-logo.svg" alt="Логотип скиллбокс" />
-            </a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
+  <title>W-Wave</title>
+</head>
+<body>
+<header>
+  <div class="container-fluid">
+    <div class="header-desktop-wrapper">
+        <div class="upperline">
+          <div class="upperline__logo" tabindex="-1">
+            <a href="#"> 
+              <picture>
+              <source srcset="./img/header-logo-desktop.png" media="(min-width: 1920px)">
+              <source srcset="./img/header-logo-768.png" media="(min-width: 321px)">
+              <img src="./img/header-logo.png" alt="Логотип w-wave">
+              </picture></a>
           </div>
-          <div class="col-xl-6 col-md-9 col-sm-12">
-            <ul class="list header-nav flex">
-              <li>
-                <a href="#">Главная</a>
-              </li>
-              <li>
-                <a href="#">О&nbsp;нас</a>
-              </li>
-              <li>
-                <a href="#">Преподаватели</a>
-              </li>
-              <li>
-                <a href="#">Курсы</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="main">
-      <section class="hero">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 col-md-6">
-              <h1 class="title hero__title">Курсы&nbsp;3D моделирования</h1>
-              <p class="descr hero__descr">
-                Следует отметить, что существующая теория способствует повышению
-                качества благоприятных перспектив. Не&nbsp;следует, однако,
-                забывать.
-              </p>
-              <button class="btn hero__btn">Выбрать курс</button>
-            </div>
-            <div class="col-xl-6 col-md-6 hero__bg-wrapper"></div>
-          </div>
-        </div>
-      </section>
-      <section class="benefits">
-        <div class="container">
-          <div class="row benefits__upperblock">
-            <div class="col-xl-2 col-md-4 col-sm-4 benefits__bg-wrapper"></div>
-            <div class="col-xl-10 col-md-8 col-sm-8">
-              <div class="benefits__content">
-                <h2 class="title benefits__tltle">
-                  Преимущества обучения в&nbsp;skillbox
-                </h2>
-                <p class="descr benefits__descr">
-                  Имеется спорная точка зрения, гласящая примерно следующее:
-                  акционеры крупнейших компаний, которые представляют собой
-                  яркий пример континентально-европейского типа политической
-                  культуры, будут рассмотрены исключительно в&nbsp;разрезе
-                  маркетинговых предпосылок.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row benefits__cards">
-            <div class="col-xl-4 col-md-4 col-sm-4 col-12">
-              <div class="benefits__card bg-1">
-                <p class="descr benefits__card-descr">
-                  Результат вашего обучения является самым важным для нас
-                  приоритетом
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-4 col-sm-4 col-12">
-              <div class="benefits__card bg-2">
-                <p class="descr benefits__card-descr">
-                  Лично познакомитесь с&nbsp;одним из&nbsp;своих будущих
-                  преподавателей
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-4 col-sm-4 col-12">
-              <div class="benefits__card bg-3">
-                <p class="descr benefits__card-descr">
-                  Значимость этих проблем очевидна, поэтому стоит всегда быть
-                  внимательным
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="teachers">
-        <div class="container">
-          <h2 class="title teachers__title">Преподаватели курсов</h2>
-          <div class="row">
-            <div class="col-xl-3 col-md-6 col-sm-6">
-              <div class="teachers__card">
-                <picture>
-                  <source
-                    srcset="./img/teach-1-320.png"
-                    media="(max-width: 575px)"
-                  />
-                  <source
-                    srcset="./img/teach-1-576.png"
-                    media="(max-width: 767px)"
-                  />
-                  <source
-                    srcset="./img/teach-1-768.png"
-                    media="(max-width: 1200px)"
-                  />
-                  <img
-                    src="./img/1teach.png"
-                    alt="Преподаватель Владимир Петров"
-                  />
-                </picture>
-                <p class="descr teachers__name">Владимир Петров</p>
-                <p class="descr teachers__comment">
-                  Лишь непосредственные участники технического прогресса
-                  неоднозначны и&nbsp;будут в&nbsp;равной степени предоставлены
-                  сами себе.
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-6">
-              <div class="teachers__card">
-                <picture>
-                  <source
-                    srcset="./img/teach-2-320.png"
-                    media="(max-width: 575px)"
-                  />
-                  <source
-                    srcset="./img/teach-2-576.png"
-                    media="(max-width: 767px)"
-                  />
-                  <source
-                    srcset="./img/teach-2-768.png"
-                    media="(max-width: 1200px)"
-                  />
-                  <img
-                    src="./img/2teach.png"
-                    alt="Преподаватель Денис Сергеев"
-                  />
-                </picture>
-                <p class="descr teachers__name">Денис Сергеев</p>
-                <p class="descr teachers__comment">
-                  Безусловно, разбавленное изрядной долей эмпатии, рациональное
-                  мышление.
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-6">
-              <div class="teachers__card">
-                <picture>
-                  <source
-                    srcset="./img/teach-3-320.png"
-                    media="(max-width: 575px)"
-                  />
-                  <source
-                    srcset="./img/teach-3-576.png"
-                    media="(max-width: 767px)"
-                  />
-                  <source
-                    srcset="./img/teach-3-768.png"
-                    media="(max-width: 1200px)"
-                  />
-                  <img
-                    src="./img/3teach.png"
-                    alt="Преподаватель Михаил Андреев"
-                  />
-                </picture>
-                <p class="descr teachers__name">Михаил Андреев</p>
-                <p class="descr teachers__comment">
-                  Ясность нашей позиции очевидна: высокое качество позиционных
-                  исследований напрямую зависит от&nbsp;вывода.
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-6">
-              <div class="teachers__card">
-                <picture>
-                  <source
-                    srcset="./img/teach-4-320.png"
-                    media="(max-width: 575px)"
-                  />
-                  <source
-                    srcset="./img/teach-4-576.png"
-                    media="(max-width: 767px)"
-                  />
-                  <source
-                    srcset="./img/teach-4-768.png"
-                    media="(max-width: 1200px)"
-                  />
-                  <img
-                    src="./img/4teach.png"
-                    alt="Преподаватель Константин Дмитриев"
-                  />
-                </picture>
-                <p class="descr teachers__name">Константин Дмитриев</p>
-                <p class="descr teachers__comment">
-                  Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что существующая
-                  теория, в&nbsp;своём классическом представлении.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="courses">
-        <div class="container">
-          <h2 class="title courses__title">Курсы</h2>
-          <div class="row">
-            <div class="col-12 col-sm-6 courses-card-gap">
-              <div class="courses__card flex">
-                <div class="courses__upcard card-1 flex">
-                  <p class="descr courses__duration">60&nbsp;часов</p>
-                </div>
-                <div class="courses__botcard flex">
-                  <div class="courses__botcard-wrapper">
-                    <h3 class="title courses__name">
-                      Cinema 4d&nbsp;для начинающих
-                    </h3>
-                    <p class="descr courses__descr">
-                      Учитывая ключевые сценарии поведения, базовый вектор
-                      развития напрямую зависит от&nbsp;системы массового
-                      участия. Следует отметить, что сложившаяся структура
-                      организации напрямую зависит от&nbsp;стандартных подходов.
-                    </p>
-                  </div>
-                  <button class="btn courses__btn">Подробнее</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 courses-card-gap">
-              <div class="courses__card flex">
-                <div class="courses__upcard card-2 flex">
-                  <p class="descr courses__duration">40&nbsp;часов</p>
-                </div>
-                <div class="courses__botcard flex">
-                  <div class="courses__botcard-wrapper">
-                    <h3 class="title courses__name">
-                      Blender: продвинутый уровень
-                    </h3>
-                    <p class="descr courses__descr">
-                      Но&nbsp;убеждённость некоторых оппонентов
-                      в&nbsp;значительной степени обусловливает важность форм
-                      воздействия. Внезапно, тщательные исследования конкурентов
-                      представлены.
-                    </p>
-                  </div>
-                  <button class="btn courses__btn">Подробнее</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 courses-card-gap">
-              <div class="courses__card flex">
-                <div class="courses__upcard card-3 flex">
-                  <p class="descr courses__duration">40&nbsp;часов</p>
-                </div>
-                <div class="courses__botcard flex">
-                  <div class="courses__botcard-wrapper">
-                    <h3 class="title courses__name">
-                      Визуализация в&nbsp;3ds Max
-                    </h3>
-                    <p class="descr courses__descr">
-                      Повседневная практика показывает, что сложившаяся
-                      структура организации обеспечивает актуальность
-                      кластеризации усилий.
-                    </p>
-                  </div>
-                  <button class="btn courses__btn">Подробнее</button>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 courses-card-gap">
-              <div class="courses__card flex">
-                <div class="courses__upcard card-4 flex">
-                  <p class="descr courses__duration">80&nbsp;часов</p>
-                </div>
-                <div class="courses__botcard flex">
-                  <div class="courses__botcard-wrapper">
-                    <h3 class="title courses__name">
-                      Скульптинг в&nbsp;ZBrush
-                    </h3>
-                    <p class="descr courses__descr">
-                      Разнообразный и&nbsp;богатый опыт говорит нам, что граница
-                      обучения кадров требует определения и&nbsp;уточнения
-                      прогресса профессионального сообщества! В&nbsp;частности,
-                      постоянный количественный рост и&nbsp;сфера нашей
-                      активности.
-                    </p>
-                  </div>
-                  <button class="btn courses__btn">Подробнее</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+          <div class="upperline__search">
+            <button class="btn-reset upperline__search-btn">
+            </button>
+          </div>      
     </div>
-    <footer>
-      <div class="container-xl">
-        <div class="social-wrapper flex">
-          <ul class="footer__social flex">
-            <a href="#"><img src="./img/fb.svg" alt="facebook" /></a>
-            <a href="#"><img src="./img/tw.svg" alt="twitter" /></a>
-            <a href="#"><img src="./img/inst.svg" alt="instagram" /></a>
-            <a href="#"><img src="./img/yt.svg" alt="youtube" /></a>
-          </ul>
+    <div class="navigation">
+      <ul class="list-reset navlist flex">
+          <li class="navlist-item" tabindex="0">
+            <a href="#podcasts" tabindex="-1">Подкасты</a>
+          </li>
+          <li class="navlist-item" tabindex="0">
+            <a href="#broadcasts" tabindex="-1">Передачи</a>
+          </li>
+          <li class="navlist-item" tabindex="0">
+            <a href="#guests" tabindex="-1">Гости</a>
+          </li>
+          <li class="navlist-item" tabindex="0">
+            <a href="#playlists" tabindex="-1">Плейлисты</a>
+          </li>
+          <li class="navlist-item" tabindex="0">
+            <a href="#about-us" tabindex="-1">О нас</a>
+          </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</header>
+<main>
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1 class="hero__title">
+        <b>Радио</b> <i>W-Wave</i>
+      </h1>
+      <p class="hero__descr">
+        Привет, на&nbsp;связи W-Wave! Раньше мы&nbsp;были изданием, а&nbsp;теперь пробуем себя в&nbsp;разоворном жанре. Говорим о&nbsp;музыке, политике, истории, науке и&nbsp;культуре. Здесь, помимо прямого эфира&nbsp;&mdash; архив передач и&nbsp;многое другое:)
+      </p>
+      <button class="btn-reset hero__btn">
+        Слушать эфир
+      </button>
+    </div>
+  </section>
+  <section id="podcasts" class="podcasts">
+    <div class="container">
+      <h2 class="podcasts__title">
+        Подкасты
+      </h2>
+     <div class="podcasts__wrapper">
+      <div  class="podcasts__card" tabindex="0">
+        <div class="podcasts__card-upper podcast1">
+          <time datetime="2023-06-14" class="podcasts__card-date">
+            14 июня
+          </time>
         </div>
-        <div class="footer__logo">
-          <p class="descr footer__logo__descr">SKILLBOX</p>
-          <p class="descr copyright">®</p>
-          <p class="descr footer__logo__descr">2023</p>
+        <div class="podcasts__card-bottomer">
+          <div class="time-wrapper">
+            <time datetime="15:43" class="podcasts__card-duration">
+            15:43
+          </time>
+          </div>
+          <p class="podcasts__card-name">
+            Европа. XIX век
+          </p>
+          <p class="podcasts__card-author">
+            Дмитрий Гутенберг
+          </p>
+        </div>
+      </div> 
+      <div class="podcasts__card" tabindex="0">
+      <div class="podcasts__card-upper podcast2">
+        <time datetime="2023-06-11" class="podcasts__card-date">
+          11 июня
+        </time>
+      </div>
+      <div class="podcasts__card-bottomer">
+        <div class="time-wrapper">
+          <time datetime="05:32" class="podcasts__card-duration">
+          5:32
+        </time>
+        </div>
+        <p class="podcasts__card-name">
+          О музыке
+        </p>
+        <p class="podcasts__card-author">
+          Дмитрий Гутенберг
+        </p>
+      </div>
+      </div>
+      <div class="podcasts__card" tabindex="0">
+      <div class="podcasts__card-upper podcast3">
+        <time datetime="2023-06-08" class="podcasts__card-date">
+          8 июня
+        </time>
+      </div>
+      <div class="podcasts__card-bottomer">
+        <div class="time-wrapper">
+          <time datetime="08:54" class="podcasts__card-duration">
+          8:54
+        </time>
+        </div>
+        <p class="podcasts__card-name">
+          Люди сегодня
+        </p>
+        <p class="podcasts__card-author">
+          Анна Васильева
+        </p>
+      </div>
+      </div>
+      <div class="podcasts__card" tabindex="0">
+      <div class="podcasts__card-upper podcast4">
+        <time datetime="2023-06-05" class="podcasts__card-date">
+          5 июня
+        </time>
+      </div>
+      <div class="podcasts__card-bottomer">
+        <div class="time-wrapper">
+          <time datetime="09:04" class="podcasts__card-duration">
+          9:04
+        </time>
+        </div>
+        <p class="podcasts__card-name">
+          Хэллоу, Африка!
+        </p>
+        <p class="podcasts__card-author">
+          Пётр Дмитриевский
+        </p>
+      </div>
+      </div>
+      <div class="podcasts__card" tabindex="0">
+      <div class="podcasts__card-upper podcast5">
+        <time datetime="2023-06-02" class="podcasts__card-date">
+          2 июня
+        </time>
+      </div>
+      <div class="podcasts__card-bottomer">
+        <div class="time-wrapper">
+          <time datetime="07:03" class="podcasts__card-duration">
+          7:03
+        </time>
+        </div>
+        <p class="podcasts__card-name">
+          Обо всём
+        </p>
+        <p class="podcasts__card-author">
+          Пётр Дмитриевский
+        </p>
+      </div>
+      </div>
+      <div class="podcasts__card" tabindex="0">
+      <div class="podcasts__card-upper podcast6">
+        <time datetime="2023-05-28" class="podcasts__card-date">
+          28 мая
+        </time>
+      </div>
+      <div class="podcasts__card-bottomer">
+        <div class="time-wrapper">
+          <time datetime="09:15" class="podcasts__card-duration">
+          9:15
+        </time>
+        </div>
+        <p class="podcasts__card-name">
+          Физика цвета
+        </p>
+        <p class="podcasts__card-author">
+          Татьяна Флеганова
+        </p>
+      </div>
+      </div>
+      <div class="podcasts__card" tabindex="0">
+      <div class="podcasts__card-upper podcast7">
+        <time datetime="2023-05-22" class="podcasts__card-date">
+          22 мая
+        </time>
+      </div>
+      <div class="podcasts__card-bottomer">
+        <div class="time-wrapper">
+          <time datetime="16:04" class="podcasts__card-duration">
+          16:04
+        </time>
+        </div>
+        <p class="podcasts__card-name">
+          Источник звука
+        </p>
+        <p class="podcasts__card-author">
+          Пётр Дмитриевский
+        </p>
+      </div>
+      </div>
+      <div class="podcasts__card" tabindex="0">
+      <div class="podcasts__card-upper podcast8">
+        <time datetime="2023-05-18" class="podcasts__card-date">
+          18 мая
+        </time>
+      </div>
+      <div class="podcasts__card-bottomer">
+        <div class="time-wrapper">
+          <time datetime="06:55" class="podcasts__card-duration">
+          6:55
+        </time>
+        </div>
+        <p class="podcasts__card-name">
+          Правила этикета
+        </p>
+        <p class="podcasts__card-author">
+          Татьяна Флеганова
+        </p>
+      </div>
+      </div>
+     </div>
+    </div>  
+  </section>
+  <section id="broadcasts" class="broadcasts">
+    <div class="container">
+      <div class="broadcasts__1024-wrapper">
+        <h2 class="broadcasts__title">
+          Передачи
+        </h2>
+        <div class="broadcasts__wrapper">
+          <div class="broadcasts__card" tabindex="0">
+            <div class="broadcasts__uppercard upper-bg-1">
+            </div>
+            <div class="div broadcasts__bottomcard">
+              <div class="broadcasts-flexwrapper">
+                <h3 class="broadcast-name">
+                  О людях и&nbsp;книгах
+                </h3>
+                <p class="broadcast-descr">Анонсируется отдельно</p>
+              </div>
+              <button class="btn-reset broadcasts__btn" tabindex="-1">
+                Подробнее
+              </button>
+            </div>
+          </div>
+          <div class="broadcasts__card" tabindex="0">
+            <div class="broadcasts__uppercard upper-bg-2">
+            </div>
+            <div class="div broadcasts__bottomcard">
+              <div class="broadcasts-flexwrapper">
+                <h3 class="broadcast-name">
+                  Графомания&nbsp;td
+                </h3>
+                <p class="broadcast-descr">По&nbsp;понедельникам в&nbsp;10:00</p>
+              </div>
+              <button class="btn-reset broadcasts__btn" tabindex="-1">
+                Подробнее
+              </button>
+            </div>
+          </div>
+          <div class="broadcasts__card" tabindex="0">
+            <div class="broadcasts__uppercard upper-bg-3">
+            </div>
+            <div class="div broadcasts__bottomcard">
+              <div class="broadcasts-flexwrapper">
+                <h3 class="broadcast-name">
+                  Не&nbsp;Рим,&nbsp;не&nbsp;Троя
+                </h3>
+                <p class="broadcast-descr">По&nbsp;вторникам в&nbsp;12:00</p>
+              </div>
+              <button class="btn-reset broadcasts__btn" tabindex="-1">
+                Подробнее
+              </button>
+            </div>
+          </div>
+          <div class="broadcasts__card" tabindex="0">
+            <div class="broadcasts__uppercard upper-bg-4">
+            </div>
+            <div class="div broadcasts__bottomcard">
+              <div class="broadcasts-flexwrapper">
+                <h3 class="broadcast-name">
+                  Эрудит
+                </h3>
+                <p class="broadcast-descr">По&nbsp;пятницам в&nbsp;17:00</p>
+              </div>
+              <button class="btn-reset broadcasts__btn" tabindex="-1">
+                Подробнее
+              </button>
+            </div>
+          </div>
+          <div class="broadcasts__card" tabindex="0">
+            <div class="broadcasts__uppercard upper-bg-5">
+            </div>
+            <div class="div broadcasts__bottomcard">
+              <div class="broadcasts-flexwrapper">
+                <h3 class="broadcast-name">
+                  Тонкости эпох
+                </h3>
+                <p class="broadcast-descr">По&nbsp;субботам в&nbsp;10:00</p>
+              </div>
+              <button class="btn-reset broadcasts__btn" tabindex="-1">
+                Подробнее
+              </button>
+            </div>
+          </div>
+          <div class="broadcasts__card" tabindex="0">
+            <div class="broadcasts__uppercard upper-bg-6">
+            </div>
+            <div class="div broadcasts__bottomcard">
+              <div class="broadcasts-flexwrapper">
+                <h3 class="broadcast-name">
+                  Живые мысли
+                </h3>
+                <p class="broadcast-descr">По&nbsp;воскресеньям в&nbsp;15:30</p>
+              </div>
+              <button class="btn-reset broadcasts__btn" tabindex="-1">
+                Подробнее
+              </button>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="broadcasts-archive">
+    <div class="container-fluid">
+      <div class="broadcasts-archive__wrap flex">
+        <p class="archive-descr">
+         В&nbsp;архив попадают все&nbsp;передачи, которые вы&nbsp;пропустили! Enjoy:)
+        </p>
+        <button class="btn archive-btn">
+         Архив 
+        </button>
+     </div>
+  </section>
+  <section id="guests" class="guests">
+    <div class="container">
+      <h2 class="guests__title">
+        Гости
+      </h2>
+      <p class="guests__descr bold-descr">
+        <b>У&nbsp;нас бывают:</b> <br>
+      </p>
+      <p class="guests__descr">
+        Блогеры, арт-критики и&nbsp;деятели искусства, музыканты, молодые учёные и&nbsp;люди науки, историки, филологи и&nbsp;много других интересных гостей!
+      </p>
+      <div class="guests__card">
+        <picture>
+          <source srcset="./img/guest1-768.jpg" media="(min-width: 768px)">
+          <img src="./img/guest1.jpg" alt="Фотография гостя">
+        </picture>
+        <div class="div guests__1024-wrapper">
+          <h3 class="guest-name">
+          Ольга Мартынова
+        </h3>
+        <p class="guest-descr">
+          Российский искусствовед, арт-критик, куратор выставок, дизайнер, кандидат культурологии. Арт-критик газеты &laquo;Коммерсантъ&raquo;. Ведёт активную блогерскую деятельность как куратор музея &laquo;Гараж&raquo;, коим является с&nbsp;2016&nbsp;года.
+        </p>
+        <button class="btn-reset guests__btn">
+          Эфиры с гостем
+        </button>
         </div>
       </div>
-    </footer>
-  </body>
+      <div class="guests__card">
+        <picture>
+          <source srcset="./img/guest2-768.jpg" media="(min-width: 768px)">
+          <img src="./img/guest2.jpg" alt="Фотография гостя">
+        </picture>
+        <div class="div guests__1024-wrapper">
+          <h3 class="guest-name">
+          Денис Гришин
+        </h3>
+        <p class="guest-descr">
+          Однозначно, элементы политического процесса являются только методом политического участия и&nbsp;смешаны с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершённой неузнаваемости, из-за чего возрастает их&nbsp;статус бесполезности.        </p>
+        <button class="btn-reset guests__btn">
+          Эфиры с гостем
+        </button>
+      </div>
+    
+        </div>  <div class="guests__card">
+        <picture>
+          <source srcset="./img/guest3-768.jpg" media="(min-width: 768px)">
+          <img src="./img/guest3.jpg" alt="Фотография гостя">
+        </picture>
+        <div class="div guests__1024-wrapper">
+          <h3 class="guest-name">
+          Ольга Мартынова
+        </h3>
+        <p class="guest-descr">
+          С&nbsp;другой стороны, высококачественный прототип будущего проекта выявляет срочную потребность дальнейших направлений развития. В&nbsp;рамках спецификации современных стандартов, реплицированные с&nbsp;зарубежных источников.        </p>
+        <button class="btn-reset guests__btn">
+          Эфиры с гостем
+        </button>
+      </div>
+    
+        </div></div>
+  </section>
+  <section id="playlists" class="playlists">
+    <div class="container">
+      <div class="playlists__desktop-wrapper">
+        <div class="playlists__title-wrapper">
+          <h2 class="playlists__title">
+            Плейлисты
+          </h2>
+          <p class="playlists__descr">
+            Раздел &laquo;Плейлисты&raquo; может содержать информацию, не&nbsp;предназначенную для несовершеннолетних <br> <i class="playlists__accent-text">&copy;&nbsp;2021&nbsp;l W-Wave</i>
+          </p> 
+          <img class="eighteen-image" src="./img/eighteen.png" alt="Для лиц старше восемнадцати лет">
+        </div>
+        <div class="playlists__wrap">
+          <div class="playlists__card">
+            <div class="playlists__cover cover-1">
+              <img src="./img/ruflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                Ploho
+              </h3>
+              <p class="playlist-descr">
+                3&nbsp;последних альбома
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-2">
+              <img src="./img/ruflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                Molchat Doma
+              </h3>
+              <p class="playlist-descr">
+                Все&nbsp;песни
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-3">
+              <img src="./img/ruflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                Motorama
+              </h3>
+              <p class="playlist-descr">
+                Все&nbsp;синглы
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-4">
+              <img src="./img/ruflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                Human Tetris
+              </h3>
+              <p class="playlist-descr">
+                3&nbsp;последних альбома
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-5">
+              <img src="./img/ruflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                Буерак
+              </h3>
+              <p class="playlist-descr">
+                Все&nbsp;EP
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-6">
+              <img src="./img/ruflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                Июльские Дни
+              </h3>
+              <p class="playlist-descr">
+                Альбом &laquo;Колокол&raquo;
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-7">
+              <img src="./img/ukflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                Joy Division
+              </h3>
+              <p class="playlist-descr">
+                Лучшее за&nbsp;всё время
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-8">
+              <img src="./img/ukflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                The Cure
+              </h3>
+              <p class="playlist-descr">
+                Лучшее за&nbsp;всё время
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-9">
+              <img src="./img/ukflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                The Smiths
+              </h3>
+              <p class="playlist-descr">
+                Период 1984&ndash;1988
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-10">
+              <img src="./img/ukflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                New Order
+              </h3>
+              <p class="playlist-descr">
+                Хиты
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-11">
+              <img src="./img/ukflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                Bauhaus
+              </h3>
+              <p class="playlist-descr">
+                Все&nbsp;синглы
+              </p>
+            </div>
+          </div>
+          <div class="playlists__card">
+            <div class="playlists__cover cover-12">
+              <img src="./img/ukflag.jpg" alt="На русском языке">
+            </div>
+            <div class="playlists__bot">
+              <h3 class="playlist-title">
+                Gang Of&nbsp;Four
+              </h3>
+              <p class="playlist-descr">
+                3&nbsp;последних альбома
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="special-product">
+    <div class="container">
+      <div class="special-product__wrapper">
+        <picture>
+          <source media="(min-width:1920px)" srcset="./img/special-desktop.png">
+          <source media="(min-width:1024px)" srcset="./img/special-1024.png">
+          <source media="(min-width:768px)" srcset="./img/special-768.png">
+          <img src="./img/special.png" alt="Фотография радиоприемника">
+        </picture>
+        <div class="special-product__right-side">
+          <h3 class="special-product__title">
+            Будь с&nbsp;нами на&nbsp;одной волне!
+          </h3>
+          <div class="special-product__decorate"></div>
+          <p class="special-product__descr">
+            Друзья, рады представить вам&nbsp;продукт&nbsp;нашего производства! Да-да, несмотря на&nbsp;то, что мы&nbsp;только начали свой путь радиовещателей, нам хочется, чтобы вы&nbsp;могли как следует нас расслышать:)
+          </p>
+          <p class="special-product__descr">
+            Итак, встречайте! Портативный радиоприёмник-колонка W-Wave 1.0&nbsp;xm. Тщательный подбор всех делатей, ручная сборка, качественный звук. Пока доступно только 60&nbsp;штук в&nbsp;3&nbsp;цветах, но&nbsp;мы&nbsp;активно трудимся над новыми партиями и&nbsp;дизайном. Спешите приобрести!
+          </p>
+          <p class="special-product__price">
+            2&nbsp;800&nbsp;₽
+          </p>
+          <button class="btn-reset special-product__btn">
+            Купить на&nbsp;Яндекс.Маркет
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about-us" class="about-us">
+    <div class="container">
+      <h2 class="about-us__title">
+        О&nbsp;нас
+      </h2>
+      <p class="about-us__accent-descr">
+        Приём-приём! Как слышно? Мы&nbsp;уже&nbsp;в&nbsp;эфире? Отлично, поехали!
+      </p>
+      <p class="about-us__descr">
+        Друзья, мы&nbsp;будем очень рады, если&nbsp;вы&nbsp;поможете стать нам лучше. Нам важен каждый слушатель, поэтому вы&nbsp;можете поделиться обратной связью о&nbsp;наших предеачах, темах, подборках и&nbsp;вообще обо всём! Это можно сделать либо написав нам в&nbsp;форме ниже, либо кликнув на&nbsp;наши соцсети в&nbsp;подвале сайта. Спасибо! Услышимся!:)
+      </p>
+      <div class="about-us__decorate-abstract">
+        <div class="about-us__spirale-wrapper"></div>
+        <div class="about-us__star-wrapper"></div>
+      </div>
+      <div class="about-us__staff">
+        <div class="about-us__card">
+          <picture>
+            <source media="(min-width: 1920px)" srcset="./img/gutenberg-desktop.jpg">
+            <source media="(min-width: 1024px)" srcset="./img/gutenberg-1024.jpg">
+            <source media="(min-width: 768px)" srcset="./img/gutenberg-768.jpg">
+            <img src="./img/gutenberg.jpg" alt="Дмитрий Гутенберг">
+          </picture>
+          <p class="about-us__staff-name">
+            Дмитрий Гутенберг
+          </p>
+          <p class="about-us__staff-descr">
+            Эксперт (ну, почти) по&nbsp;всем вопросам (почти)
+          </p>
+        </div>
+        <div class="about-us__card">
+          <picture>
+            <source media="(min-width: 1920px)" srcset="./img/vasyleva-desktop.jpg">
+            <source media="(min-width: 1024px)" srcset="./img/vasyleva-1024.jpg">
+            <source media="(min-width: 768px)" srcset="./img/vasyleva-768.jpg">
+            <img src="./img/vasyleva.jpg" alt="Анна Васильева">
+          </picture>
+          <p class="about-us__staff-name">
+            Анна Васильева
+          </p>
+          <p class="about-us__staff-descr">
+            Как я&nbsp;здесь оказалась? А&nbsp;главное&nbsp;&mdash; зачем?
+          </p>
+        </div>
+        <div class="about-us__card">
+          <picture>
+            <source media="(min-width: 1920px)" srcset="./img/dmytryevsky-desktop.jpg">
+            <source media="(min-width: 1024px)" srcset="./img/dmytryevsky-1024.jpg">
+            <source media="(min-width: 768px)" srcset="./img/dmytryevsky-768.jpg">
+            <img src="./img/dmytryevsky.jpg" alt="Пётр Дмитриевский">
+          </picture>
+          <p class="about-us__staff-name">
+            Пётр Дмитриевский
+          </p>
+          <p class="about-us__staff-descr">
+            Господа! Внимание! Благодарю за&nbsp;внимание!
+          </p>
+        </div>
+        <div class="about-us__card">
+          <picture>
+            <source media="(min-width: 1920px)" srcset="./img/fleganova-desktop.jpg">
+            <source media="(min-width: 1024px)" srcset="./img/fleganova-1024.jpg">
+            <source media="(min-width: 768px)" srcset="./img/fleganova-768.jpg">
+            <img src="./img/fleganova.jpg" alt="Татьяна Флеганова">
+          </picture>
+          <p class="about-us__staff-name">
+            Татьяна Флеганова
+          </p>
+          <p class="about-us__staff-descr">
+            Одна я&nbsp;в&nbsp;пальто стою красивая, а&nbsp;вокруг...
+          </p>
+        </div>
+      </div>
+      <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="about-us__form flex">
+        <label for="textarea"><textarea name="say-about" class="about-us__sayform about-us__hoverage" placeholder="Что скажете?" maxlength="255"></textarea></label>
+        <label for="input"><input type="text" name="name" class="about-us__name about-us__hoverage" placeholder="Имя" maxlength="25"></label>
+        <label for="input"><input type="email" name="e-mail" class="about-us__e-mail about-us__hoverage" placeholder="Email" maxlength="30" required></label>
+        <button type="submit" class="btn-reset about-us__btn">Отправить</button>
+        <label class="about-us__label flex">
+          <input type="checkbox" name="apply" class="about-us__check" required >
+          <span>Cогласен на обработку персональных данных</span>
+        </label>
+      </form>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container-fluid">
+    <div class="footer-social-nav-wrapper">
+      <div class="footer-social flex">
+        <a href="#" class="footer-logo"><img src="./img/footer-logo.png" alt="Логотип W-wave"></a>
+        <ul class="list-reset footer-social__list flex">
+          <li><a href="#"><svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M29.3145 3.747C30 6.42 30 12 30 12C30 12 30 17.58 29.3145 20.253C28.9335 21.7305 27.819 22.893 26.4075 23.286C23.844 24 15 24 15 24C15 24 6.1605 24 3.5925 23.286C2.175 22.887 1.062 21.726 0.6855 20.253C4.47035e-08 17.58 0 12 0 12C0 12 4.47035e-08 6.42 0.6855 3.747C1.0665 2.2695 2.181 1.107 3.5925 0.714C6.1605 -2.68221e-07 15 0 15 0C15 0 23.844 -2.68221e-07 26.4075 0.714C27.825 1.113 28.938 2.274 29.3145 3.747ZM12 17.25L21 12L12 6.75V17.25Z"/>
+            </svg></a></li>
+          <li><a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.3507 9.21936C12.3507 10.6392 13.5854 11.7903 15.1085 11.7903C16.632 11.7903 17.8667 10.6392 17.8667 9.21936C17.8667 7.79952 16.632 6.64846 15.1085 6.64846C13.5854 6.64846 12.3507 7.79952 12.3507 9.21936Z"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0C4.02944 0 0 4.02944 0 9V21C0 25.9706 4.02944 30 9 30H21C25.9706 30 30 25.9706 30 21V9C30 4.02944 25.9706 0 21 0H9ZM8.43654 9.21926C8.43654 5.7845 11.4236 3 15.1085 3C18.7938 3 21.7809 5.7845 21.7809 9.21926C21.7809 12.6541 18.7938 15.4388 15.1085 15.4388C11.4236 15.4388 8.43654 12.6541 8.43654 9.21926ZM21.8209 18.6379C21.736 18.7011 20.1353 19.8802 17.4641 20.3874L21.4961 24.1122C22.2052 24.7721 22.2061 25.8428 21.4982 26.5037C20.7903 27.1646 19.6419 27.1656 18.9325 26.5056L15.018 22.9525L11.4627 26.4827C11.1069 26.8269 10.6321 27 10.1566 27C9.70346 27 9.24968 26.8428 8.89754 26.5263C8.17612 25.8781 8.15537 24.8075 8.85093 24.1352L12.6779 20.4071C9.93201 19.9118 8.26513 18.702 8.17943 18.6379C7.39756 18.0536 7.27216 16.9893 7.89886 16.2606C8.52585 15.5321 9.66738 15.415 10.4492 15.9992C10.4658 16.0117 12.209 17.2324 15.018 17.2342C17.827 17.2324 19.5342 16.0117 19.5507 15.9992C20.3326 15.415 21.4744 15.5321 22.1011 16.2606C22.7278 16.9893 22.6024 18.0536 21.8209 18.6379Z"/>
+            </svg></a></li>
+          <li><a href="#"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 9C0 4.02979 4.02979 0 9 0H21C25.9702 0 30 4.02979 30 9V21C30 25.9702 25.9702 30 21 30H9C4.02979 30 0 25.9702 0 21V9ZM23.0156 17.1709C23.5708 17.6667 24.1267 18.1633 24.6182 18.7192C24.8123 18.939 24.9998 19.1631 25.1653 19.4019C25.2524 19.5271 25.3337 19.656 25.407 19.79C25.5637 20.0771 25.5659 20.3789 25.459 20.6074C25.3586 20.8213 25.1631 20.9714 24.9089 20.9875L21.6313 20.9868C20.7854 21.0535 20.1116 20.7312 19.5439 20.1863C19.0906 19.7512 18.6702 19.2876 18.2336 18.8379C18.0549 18.6533 17.8674 18.4797 17.6433 18.3428C17.3943 18.1897 17.1628 18.1487 16.9629 18.2183C16.8047 18.2732 16.6655 18.3984 16.5527 18.5933C16.292 19.0408 16.2319 19.5366 16.207 20.0347C16.1719 20.7627 15.9382 20.9531 15.1633 20.9875C13.5066 21.0608 11.9348 20.8235 10.4736 20.0361C9.18457 19.3418 8.18701 18.3625 7.31763 17.2529C5.625 15.0901 4.32861 12.7163 3.16406 10.2737C2.90186 9.72363 3.09375 9.42993 3.73755 9.41821C4.80688 9.39917 5.87695 9.40137 6.94629 9.41748C7.38135 9.42407 7.66919 9.65845 7.83691 10.0459C8.41479 11.3862 9.12305 12.6614 10.0115 13.8435L10.1755 14.0581C10.3638 14.2976 10.5681 14.5239 10.8333 14.6953C11.2126 14.9407 11.502 14.8594 11.6814 14.4602C11.7957 14.2061 11.8455 13.9343 11.8704 13.6626C11.9553 12.731 11.9656 11.7993 11.8184 10.8713C11.7268 10.2905 11.3796 9.91553 10.7659 9.80566C10.4524 9.74927 10.4985 9.64014 10.6509 9.47168C10.9146 9.18091 11.1621 9.00073 11.6565 9.00073L15.3596 9C15.9426 9.10767 16.0737 9.35449 16.1528 9.90894L16.1565 13.7864C16.1492 14.001 16.2708 14.6367 16.6787 14.7766C17.0061 14.8784 17.2222 14.6309 17.4177 14.436C18.3054 13.5476 18.9382 12.4995 19.5051 11.4148C19.7549 10.9365 19.9709 10.4414 20.1804 9.94556C20.2537 9.77344 20.3452 9.64233 20.4683 9.55225C20.6067 9.45044 20.7847 9.40137 21.0176 9.4043L24.583 9.40869C24.6877 9.40869 24.7947 9.40942 24.8987 9.42627C25.2151 9.47754 25.4106 9.56909 25.4978 9.7251C25.5754 9.86499 25.5659 10.0576 25.478 10.3191C25.1968 11.1533 24.6599 11.8542 24.1252 12.5515L24.0615 12.635C23.4653 13.4114 22.8303 14.1599 22.2407 14.9399C21.6987 15.6519 21.7412 16.0107 22.4143 16.6296C22.6128 16.812 22.8142 16.9915 23.0156 17.1709Z"/>
+            </svg></a></li>
+        </ul>
+      </div>
+      <div class="footer-nav flex">
+            <div class="footer-nav__item"><a href="#">Подкасты</a></div>
+            <div class="footer-nav__item"><a href="#">Передачи</a></div>
+            <div class="footer-nav__item"><a href="#">Гости</a></div>
+            <div class="footer-nav__item"><a href="#">Плейлисты</a></div>
+            <div class="footer-nav__item"><a href="#">Сетка</a></div>
+            <div class="footer-nav__item"><a href="#">О нас</a></div>
+            <div class="footer-nav__item"><a href="#">Новости</a></div>
+            <div class="footer-nav__item"><a href="#">Блоги</a></div>
+            <div class="footer-nav__item"><a href="#">Топы</a></div>
+      </div>
+    </div>
+    <div class="footer-under">
+      <div class="footer-under__wave">
+      </div>
+      <p class="footer-under__descr">
+        W-WAVE <sup class="reg">&reg;</sup> 2023
+      </p>
+    </div>
+    </div>
+  </div>
+</footer>
+</body> 
 </html>
