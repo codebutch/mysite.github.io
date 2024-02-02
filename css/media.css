@@ -16,9 +16,7 @@
   /* header */
 
   .container, .container-fluid {
-    padding: 0 114px;
-    width: 768px;
-  }
+    padding: 0 114px;  }
 
   :root {
     --main-black: #121723;
@@ -570,7 +568,6 @@
 
   .container, .container-fluid {
     padding: 0 100px;
-    width: 1024px;
   }
 
   :root {
@@ -927,7 +924,6 @@
 
 .container, .container-fluid {
   padding: 0 405px;
-  width: 1920px;
 }
 
 /* header */
