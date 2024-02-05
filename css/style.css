@@ -1096,6 +1096,10 @@ body {
   resize: none;
 }
 
+.about-us__hoverage {
+  width: 100%;
+}
+
 .about-us__hoverage:hover {
   color: var(--grey-hard);
   background-color: var(--off-black);
