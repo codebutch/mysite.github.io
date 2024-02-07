@@ -10,16 +10,16 @@
   /* header */
 
   .container, .container-fluid {
-    padding: 0px 114px;
+    padding: 0 114px;
   }
-  
+
   :root {
     --main-black: #121723;
     --gap-header: 35px;
   }
 
   .upperline {
-    padding: 29px 0 22px;
+    padding: 31px 0 18px;
   }
 
   .navigation {
@@ -30,19 +30,17 @@
   /* hero */
 
   .hero {
-    padding: 88px 0;
+    padding: 92px 0 88px;
   }
 
   .hero__title {
     font-size: 60px;
-    letter-spacing: 1px;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
   }
 
   .hero__descr {
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.1px;
     margin-bottom: 20px;
   }
 
@@ -54,14 +52,13 @@
   /* podcasts */
 
   .podcasts {
-    padding: 93px 0 94px;
+    padding: 95px 0 94px;
   }
 
   .podcasts__title {
     font-weight: 400;
     font-size: 48px;
-    letter-spacing: 1px;
-    margin-bottom: 31px;
+    margin-bottom: 29px;
   }
 
   .podcasts__card {
@@ -80,7 +77,7 @@
   }
 
   .podcasts__card-bottomer {
-    padding: 28px 0 10px 29px;
+    padding: 33px 0 10px 30px;
   }
 
   .podcast1 {
@@ -117,22 +114,23 @@
 
   .podcasts__card-name {
     font-size: 20px;
+    margin-bottom: 3px;
   }
 
   .podcasts__card-author {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   /* broadcasts */
 
   .broadcasts {
-    padding: 48px 0 60px;
+    padding: 55px 0 60px;
   }
 
   .broadcasts__title {
     font-weight: 400;
-    font-size: 50px;
-    margin-bottom: 125px;
+    font-size: 48px;
+    margin-bottom: 122px;
   }
 
   .broadcasts__uppercard {
@@ -186,7 +184,7 @@
   }
 
   .broadcasts-archive__wrap {
-    padding: 30px 0px 26px 0px;
+    padding: 30px 0px 24px 0px;
   }
 
   .broadcasts-archive__wrap picture {
@@ -206,7 +204,7 @@
 
   .archive-descr {
     margin: 0;
-    max-width: 255px;
+    max-width: 260px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -223,32 +221,30 @@
   /* guests */
 
   .guests {
-    padding: 92px 0 42px;
+    padding: 95px 0 44px;
   }
 
   .guests__title {
     font-size: 48px;
-    margin-bottom: 13px;
+    margin-bottom: 12px;
   }
 
   .guests__descr {
     font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.4px;
+    line-height: 32px;
     margin-bottom: 54px;
   }
 
   .guests__descr:nth-child(3) {
-    margin-bottom: 54px;
+    margin-bottom: 49px;
   }
 
   .bold-descr {
-    margin-bottom: 11px;
-    letter-spacing: -0.5px;
+    margin-bottom: 6px;
   }
 
   .guests__card img {
-    margin-bottom: 26px;
+    margin-bottom: 24px;
   }
 
   .guest-descr {
@@ -256,20 +252,21 @@
   }
 
   .guests__btn {
-    padding: 11.5px 16.5px;
+    padding: 10px 18px;
   }
 
   .guests__card {
-    margin-bottom: 48px;
+    margin-bottom: 50px;
   }
 
   /* playlists */
 
   .playlists {
-    padding: 91px 0 111px 0;
+    padding: 95px 0 111px 0;
   }
 
   .playlists__title {
+    margin-bottom: 11px;
     font-weight: 400;
     font-size: 48px;
   }
@@ -291,6 +288,10 @@
     display: -ms-flexbox;
     display: flex;
   }
+
+  .eighteen-image {
+    margin-bottom: 21px;
+}
 
   .playlists__wrap {
     gap: 29px;
@@ -376,15 +377,15 @@
   .special-product__title {
     max-width: 480px;
     font-size: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
 
   .special-product img {
-    margin-bottom: 43px;
+    margin-bottom: 44px;
   }
 
   .special-product__decorate {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
 
   .special-product__descr {
@@ -393,7 +394,7 @@
   }
 
   .special-product__descr:nth-child(4) {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
   }
 
   .special-product__descr:nth-child(5) {
@@ -402,26 +403,31 @@
 
   .special-product__price {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 29px;
   }
 
   .special-product__btn {
-    padding: 24px 18px 22px 41px;
+    padding: 24px 12px 22px 39px;
     font-size: 20px;
   }
 
   /* about-us*/
 
   .about-us {
-    padding: 92px 0 97px;
+    padding: 95px 0 92px;
+  }
+
+  .about-us__card {
+    margin-bottom: 30px;
   }
 
   .about-us__title {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     font-size: 48px;
   }
 
   .about-us__accent-descr {
+    margin-bottom: 8px;
     font-size: 20px;
     line-height: 30px;
   }
@@ -436,7 +442,7 @@
     display: -ms-flexbox;
     display: flex;
     min-height: 115px;
-    margin-bottom: 29px;
+    margin-bottom: 26px;
   }
 
   .about-us__spirale-wrapper {
@@ -451,7 +457,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    left: -113px;
+    left: -114px;
     background-image: url(../img/spirale.png);
     background-size: auto;
     background-repeat: no-repeat;
@@ -469,11 +475,11 @@
   .about-us__staff-name {
     font-size: 20px;
     line-height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
   }
 
   .about-us__card img {
-    margin-bottom: 23px;
+    margin-bottom: 24px;
   }
 
   .about-us__staff-descr {
@@ -482,29 +488,29 @@
   }
 
   .about-us__sayform {
-    min-width: 541px;
+    min-width: 540px;
     padding: 26px 30px 17px;
     font-size: 20px;
     border-radius: 30px;
   }
 
   .about-us__name {
-    min-width: 541px;
-    padding: 21px 30px 22px;
+    min-width: 540px;
+    padding: 25px 24px 23px 31px;
     font-size: 20px;
-    border-radius: 30px;
-  }
+    border-radius: 35px;
+}
 
   .about-us__e-mail {
-    min-width: 541px;
-    padding: 23px 30px 22px;
+    min-width: 540px;
+    padding: 25px 24px 23px 31px;
     font-size: 20px;
-    border-radius: 30px;
+    border-radius: 35px;
   }
 
   .about-us__btn {
     margin-bottom: 32px;
-    padding: 24px 55px;
+    padding: 24px 53px;
     font-size: 20px;
   }
 
@@ -527,7 +533,7 @@
         align-content: space-between;
     max-height: 166px;
     margin: 0 calc(50% - 50vw);
-    padding: 28px 117px 0px 114px;
+    padding: 24px 114px 0px 114px;
     background-color: var(--off-black);
   }
 
@@ -540,16 +546,16 @@
   }
 
   .footer-under {
-    padding-top: 50px;
-    padding-bottom: 13px;
-  }
+    padding-top: 49px;
+    padding-bottom: 14px;
+}
 
   .footer-under__wave {
     background-image: url(../img/footer-wave-768.svg);
   }
 
   .footer-under__descr {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .reg {
@@ -566,7 +572,7 @@
   }
 
   :root {
-    --gap-header: 88px;
+    --gap-header: 86px;
   }
 
   .navigation {
@@ -584,7 +590,7 @@
 }
 
   .upperline {
-    padding: 29px 0 22px;
+    padding: 31px 0 18px;
   }
 
   .navlist-item {
@@ -594,13 +600,18 @@
   /* hero */
 
   .hero {
-    padding: 89px 0;
+    padding: 92px 0;
+    padding-bottom: 90px;
     margin-bottom: 0;
     background-image: url(../img/hero-bg-1024.png);
     background-size: auto;
     background-repeat: no-repeat;
     background-position: 65vw 82px;
   }
+
+  .hero__btn {
+    padding: 25px 53px 25px 55px;
+}
 
   .hero__title {
     letter-spacing: 0.1px;
@@ -613,17 +624,17 @@
   /* podcasts */
 
   .podcasts {
-    padding: 93px 0 64px 0;
+    padding: 95px 0 64px 0;
   }
 
   .podcasts__wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 29px 1fr;
+    -ms-grid-columns: 1fr 30px 1fr;
     grid-template-columns: repeat(2, 1fr);
-    -webkit-column-gap: 29px;
-       -moz-column-gap: 29px;
-            column-gap: 29px;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
   }
 
   .podcasts__card {
@@ -633,7 +644,7 @@
   /* broadcasts */
 
   .broadcasts {
-    padding: 48px 0 74px;
+    padding: 55px 0 74px;
   }
 
   .broadcasts__1024-wrapper {
@@ -653,7 +664,7 @@
   .broadcasts__wrapper {
     -ms-grid-columns: 255px 29px 255px;
     grid-template-columns: repeat(2, 255px);
-    padding: 60px 0 20px;
+    padding: 53px 0 20px;
     -webkit-column-gap: 29px;
        -moz-column-gap: 29px;
             column-gap: 29px;
@@ -696,7 +707,7 @@
   /* guests */
 
   .guests {
-    padding: 92px 0 44px;
+    padding: 95px 0 44px;
   }
 
   .guests__descr {
@@ -722,7 +733,7 @@
   /* PLAYLISTS */
 
   .playlists {
-    padding: 92px 0 92px 0;
+    padding: 95px 0 93px 0;
   }
 
   .playlists__descr {
@@ -730,22 +741,22 @@
   }
 
   .eighteen-image {
-    margin-bottom: 25px;
+    margin-bottom: 21px;
   }
 
   .playlists__wrap {
-    -ms-grid-columns: 1fr 28px 1fr 28px 1fr;
+    -ms-grid-columns: 1fr 30px 1fr 30px 1fr;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 29px;
-    -webkit-column-gap: 28px;
-       -moz-column-gap: 28px;
-            column-gap: 28px;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
   }
 
   /* special-product */
 
   .special-product {
-    padding: 92px 0 94px;
+    padding: 95px 0 94px;
   }
 
   .special-product img {
@@ -770,14 +781,14 @@
   }
 
   .special-product__descr:nth-child(4) {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
   }
 
   /* about-us */
 
   .about-us {
     position: relative;
-    padding: 93px 0 96px;
+    padding: 95px 0 91px;
   }
 
   .about-us__accent-descr {
@@ -786,7 +797,7 @@
 
   .about-us__descr {
     max-width: 538px;
-    margin-bottom: 33px;
+    margin-bottom: 29px;
   }
 
   .about-us__decorate-abstract {
@@ -817,18 +828,19 @@
   }
 
   .about-us__sayform {
+    padding: 30px 30px 17px;
     margin: 0;
     min-width: 824px;
   }
 
   .about-us__name {
-    padding: 23px 30px 22px;
+    padding: 25px 31px 23px;
     margin: 0;
     min-width: 397px;
   }
 
   .about-us__e-mail {
-    padding: 23px 30px 22px;
+    padding: 25px 31px 23px;
     margin: 0;
     min-width: 397px;
   }
@@ -882,7 +894,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 16px;
+  gap: 13px;
   }
 
   .footer-social__list svg {
@@ -913,18 +925,18 @@
 
 @media (min-width: 1920px) {
   
-:root {
-  --gap-header: 42px;
+.container, .container-fluid  {
+  padding: 0 23px;
 }
 
-.container, .container-fluid {
-  padding: 0 23px;
+:root {
+  --gap-header: 42px;
 }
 
 /* header */
 
 .header-desktop-wrapper {
-  padding-top: 31px;
+  padding-top: 34px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -950,10 +962,14 @@
 /* hero */
 
 .hero {
-  padding: 121px 0;
+  padding: 122px 0;
   padding-bottom: 94px;
   background-image: url(../img/hero-bg-desktop.png);
-  background-position: 74.92% 59px;
+  background-position: 74.92% 56px;
+}
+
+.hero__btn {
+  padding: 25px 54px 25px 55px;
 }
 
 .hero__descr {
@@ -965,7 +981,7 @@
 /* podcasts */
 
 .podcasts {
-  padding: 93px 0 64px;
+  padding: 95px 0 64px;
 }
 
 .podcasts__wrapper {
@@ -979,7 +995,7 @@
 /* broadcasts */
 
 .broadcasts {
-  padding: 49px 0px 74px;
+  padding: 55px 0px 74px;
 }
 
 .broadcasts__1024-wrapper{
@@ -987,13 +1003,13 @@
 }
 
 .broadcasts__wrapper {
-  -ms-grid-columns: 255px 30px 255px 30px 255px;
+  -ms-grid-columns: 255px 31px 255px 31px 255px;
   grid-template-columns: repeat(3, 255px);
-  padding: 59px 0 20px;
+  padding: 53px 0 20px;
   row-gap: 30px;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
+  -webkit-column-gap: 31px;
+     -moz-column-gap: 31px;
+          column-gap: 31px;
 }
 
 .broadcasts__card:not(:last-child) {
@@ -1021,7 +1037,7 @@
 /* guests */
 
 .guests {
-  padding: 92px 0px 44px;
+  padding: 95px 0px 44px;
 }
 
 .guests__descr {
@@ -1029,7 +1045,7 @@
 }
 
 .guests__descr:nth-child(3) {
-  margin-bottom: 52px;
+  margin-bottom: 49px;
 }
 
 .guest-descr {
@@ -1044,7 +1060,7 @@
 /* playlists */
 
 .playlists {
-  padding: 92px 0 94px 0px;
+  padding: 95px 0 94px 0px;
 }
 
 .playlists__desktop-wrapper {
@@ -1071,7 +1087,7 @@
 }
 
 .playlists__wrap {
-  padding-top: 16px;
+  padding-top: 13px;
   -ms-grid-columns: 160px 30px 160px 30px 160px 30px 160px;
   grid-template-columns: repeat(4, 160px);
   row-gap: 30px;
@@ -1145,7 +1161,7 @@
 /* special-product */
 
 .special-product {
-  padding: 92px 0px 133px;
+  padding: 94px 0px 133px;
 }
 
 .special-product img {
@@ -1160,6 +1176,10 @@
   min-width: 453px;
 }
 
+.special-product__btn {
+  padding: 24px 12px 22px 40px;
+}
+
 .special-product__wrapper {
   margin: 0px 0px 0px -5px;
 }
@@ -1167,7 +1187,7 @@
 /* about-us */
 
 .about-us {
-  padding: 92px 0px 95px;
+  padding: 95px 0px 90px;
 }
 
 .about-us__decorate-abstract {
@@ -1196,7 +1216,7 @@
 
 .about-us__descr {
   max-width: 643px;
-  margin-bottom: 33px;
+  margin-bottom: 29px;
 }
 
 .about-us__staff {
@@ -1260,8 +1280,8 @@ footer {
 }
 
 .footer-under {
-  padding-top: 82px;
-  padding-bottom: 8px;
+  padding-top: 77px;
+  padding-bottom: 12px;
 }
 
 .footer-under__wave {
@@ -1269,6 +1289,10 @@ footer {
   left: 0;
   position: absolute;
   width: 100%;
+}
+
+.footer-under__descr {
+  font-size: 16px;
 }
 
 }

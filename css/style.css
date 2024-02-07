@@ -61,8 +61,8 @@ img {
 
 @font-face {
   font-family: "Muller";
-  src: url("MullerRegular.woff2") format("woff2"),
-    url("MullerRegular.woff") format("woff");
+  src: url("../fonts/MullerRegular.woff2") format("woff2"),
+    url("../fonts/MullerRegular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -70,8 +70,8 @@ img {
 
 @font-face {
   font-family: "Muller";
-  src: url("MullerBold.woff2") format("woff2"),
-    url("MullerBold.woff") format("woff");
+  src: url("../fonts/MullerBold.woff2") format("woff2"),
+    url("../fonts/MullerBold.woff") format("woff");
   font-weight: 600;
   font-style: bold;
   font-display: swap;
@@ -79,8 +79,8 @@ img {
 
 @font-face {
   font-family: "Muller";
-  src: url("MullerMedium.woff2") format("woff2"),
-    url("MullerMedium.woff") format("woff");
+  src: url("../fonts/MullerMedium.woff2") format("woff2"),
+    url("../fonts/MullerMedium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -88,8 +88,8 @@ img {
 
 @font-face {
   font-family: "Muller";
-  src: url("MullerLightItalic.woff2") format("woff2"),
-    url("MullerLightItalic.woff") format("woff");
+  src: url("../fonts/MullerLightItalic.woff2") format("woff2"),
+    url("../fonts/MullerLightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -97,8 +97,8 @@ img {
 
 @font-face {
   font-family: "Muller";
-  src: url("MullerRegularItalic.woff2") format("woff2"),
-    url("MullerRegularItalic.woff") format("woff");
+  src: url("../fonts/MullerRegularItalic.woff2") format("woff2"),
+    url("../fonts/MullerRegularItalic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -153,7 +153,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 15px 0px 11px;
+  padding: 17px 0px 7px;
 }
 
 .upperline__logo a:focus {
@@ -237,13 +237,13 @@ body {
 /* hero */
 
 .hero {
-  padding: 38px 0px;
+  padding: 41px 0px 38px;
   margin-bottom: 2px;
 }
 
 .hero__title {
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   color: var(--main-black);
   font-weight: 400;
   font-size: 32px;
@@ -397,12 +397,12 @@ body {
 
 .podcasts__card-bottomer {
   width: 100%;
-  padding: 19px 0 31px 15px;
+  padding: 23px 0 29px 16px;
   background-color: var(--white);
 }
 
 .time-wrapper {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .podcasts__card-duration {
@@ -429,11 +429,11 @@ body {
 /* broadcasts */
 
 .broadcasts {
-  padding: 33px 0 28px;
+  padding: 35px 0 30px;
 }
 
 .broadcasts__title {
-  margin-bottom: 30px;
+  margin-bottom: 29px;
   color: var(--main-black);
   font-size: 24px;
   line-height: 100%;
@@ -487,8 +487,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 100px;
-  padding: 10px 10px 12px 9px;
+  min-height: 99px;
+  padding: 10px 10px 12px 8px;
   border-right: 1px solid var(--grey-light);
   border-left: 1px solid var(--grey-light);
   border-bottom: 1px solid var(--grey-light);
@@ -596,7 +596,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 calc(50% - 50vw);
-  padding: 29px 10px 50px 0;
+  padding: 29px 10px 48px 0;
   border-top: 1px solid var(--grey-light);
 }
 
@@ -657,7 +657,7 @@ body {
 /* guests */
 
 .guests {
-  padding: 53px 0 24px;
+  padding: 55px 0 24px;
   background-color: var(--main-black);
 }
 
@@ -678,7 +678,7 @@ body {
 }
 
 .guests__descr:nth-child(3) {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .guests__card {
@@ -686,7 +686,7 @@ body {
 }
 
 .guests__card img {
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 .guest-name {
@@ -696,7 +696,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: 0.4px;
 }
 
 .guest-descr {
@@ -705,7 +704,6 @@ body {
   color: var(--grey-hard);
   font-size: 16px;
   line-height: 28.8px;
-  letter-spacing: 0.3px;
 }
 
 .guests__btn {
@@ -781,7 +779,7 @@ body {
 }
 
 .eighteen-image {
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 
 .playlists__card {
@@ -892,7 +890,7 @@ body {
 }
 
 .playlists__bot {
-  padding: 8px 10px 10px 10px;
+  padding: 8px 10px 10px 8px;
   max-width: 113px;
   border: 1px solid var(--grey-light);
 }
@@ -947,21 +945,19 @@ body {
   color: var(--white);
   font-size: 14px;
   line-height: 22px;
-  letter-spacing: 0.2px;
 }
 
 .special-product__price {
   margin: 0;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
   color: var(--white);
   font-weight: 500;
   font-size: 24px;
   line-height: 100%;
-  letter-spacing: 1.5px;
 }
 
 .special-product__btn {
-  padding: 13px 18px 17px 44px;
+  padding: 15px 14px 15px 42px;
   border: 2px solid var(--local-yellow);
   border-radius: 100px;
   color: var(--local-yellow);
@@ -1024,12 +1020,11 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
-  letter-spacing: -0.4px;
 }
 
 .about-us__descr {
   margin: 0;
-  margin-bottom: 31px;
+  margin-bottom: 30px;
   color: var(--grey-hard);
   font-size: 14px;
   line-height: 22px;
@@ -1040,7 +1035,7 @@ body {
 }
 
 .about-us__card {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .about-us__card img {
@@ -1064,7 +1059,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: 0.5px;
 }
 
 .about-us__staff-descr {
@@ -1072,7 +1066,6 @@ body {
   color: var(--grey-hard);
   font-size: 12px;
   line-height: 16px;
-  letter-spacing: -0.1px;
 }
 
 .about-us__form {
@@ -1086,7 +1079,7 @@ body {
   min-height: 150px;
   min-width: 256px;
   padding: 17px 24px 17px;
-  margin-bottom: 25px;
+  margin-bottom: 23px;
   background-color: var(--main-black);
   border: 1px solid var(--white);
   border-radius: 20px;
@@ -1122,7 +1115,7 @@ body {
 }
 
 .about-us__name {
-  padding: 17px 29px 13px;
+  padding: 17px 23px 15px;
   margin-bottom: 30px;
   background-color: var(--main-black);
   border: 1px solid var(--white);
@@ -1134,7 +1127,7 @@ body {
 
 .about-us__e-mail {
   position: relative;
-  padding: 13px 29px 17px;
+  padding: 17px 23px 15px;
   margin-bottom: 30px;
   background-color: var(--main-black);
   border: 1px solid var(--white);
@@ -1148,7 +1141,7 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 16px 45px;
+  padding: 16px 44px;
   margin-bottom: 18px;
   background-color: var(--violett-medium);
   border: 1px solid var(--violett-medium);
@@ -1238,7 +1231,7 @@ footer {
 }
 
 .footer-logo {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .footer-social__list {
@@ -1339,5 +1332,4 @@ footer {
   text-align: center;
   font-size: 12px;
   line-height: 12.4px;
-  letter-spacing: 0.5px;
 }
