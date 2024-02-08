@@ -10,7 +10,7 @@
   /* header */
 
   .container, .container-fluid {
-    padding: 0 114px;
+    width: 604px;
   }
 
   :root {
@@ -568,7 +568,7 @@
   /* header */
 
   .container, .container-fluid {
-    padding: 0 100px;
+    width: 887px;
   }
 
   :root {
@@ -924,9 +924,9 @@
 }
 
 @media (min-width: 1920px) {
-  
-.container, .container-fluid  {
-  padding: 0 23px;
+
+.container, .container-fluid {
+  width: 1174px;
 }
 
 :root {
